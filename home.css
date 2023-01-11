@@ -7,7 +7,6 @@
 /* SECTION 2 */
 
 .containerr {
-    margin-top: 1rem;
     display: flex;
 }
 
@@ -40,7 +39,7 @@
 }
 
 .navbrandd {
-    margin-top: 23rem;
+    margin-top: 20rem;
 }
 
 .d-flex {
@@ -84,7 +83,6 @@
     height: 100px;
     padding: 0;
     margin: 0;
-    position: relative;
 }
 
 .info-item {
@@ -113,9 +111,8 @@
     padding: 2rem;
     display: flex;
     justify-content: space-between;
-    position: absolute;
-    width: 61.4%;
-    top: 99px;
+    margin-top: -59px;
+    opacity: 0.99;
 }
 
 /* form  */
@@ -155,8 +152,9 @@
     justify-content: space-around;
     padding: 2rem;
     font-family: 'Inter';
-    margin: 70px 0;
+    margin-top: -15px;
     font-style: normal;
+    margin-bottom: 2rem;
 }
 
 .num-item{
