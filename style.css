@@ -13,6 +13,7 @@
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
+
 .left {
     background-color: #E5E5E5;
 }
@@ -78,4 +79,5 @@
 a{
     text-decoration: none;
     color: #fff;
+    padding: 0.4rem 7.2rem;
 }
