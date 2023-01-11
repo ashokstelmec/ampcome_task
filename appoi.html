@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointments </title>
+    <link rel="stylesheet" href="appoi.css">
+    <script src="https://kit.fontawesome.com/2e908ec99e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="content">
+        <nav>
+            <ul>
+                <li><a href="home.html"><img src="Photos/menu.png" alt=""></a></li>
+                <li><a href="#"><img src="Photos/cont.png" alt=""></a></li>
+                <li><a href="appoi.html"><img src="Photos/Appio.png" alt=""></a></li>
+                <li><a href="#"><img src="Photos/rup.png" alt=""></a></li>
+                <li><a href="#"><img src="Photos/msg.png" alt=""></a></li>
+                <li><a href="#"><img src="Photos/setting.png" alt=""></a></li>
+            </ul>
+            <div class="navbrand"><a href="index.html"><img src="Photos/doc.png" alt="Doctor"></a></div>
+        </nav>
+
+
+        <section>
+            <div class="container">
+                <h3>Appointments</h3>
+                <div class="left">
+                    <p>List of booked appointments</p>
+                    <button>Add <span>+</span></button>
+                </div>
+            </div>
+            <div>
+                <form action="/">
+                    <div class="form-control">
+                        <input type="text" placeholder="Search by name,number">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <div class="form-control">
+                        <div class="form-group">
+                            <label>Date</label>
+                            <select class="input-lg">
+                                <option>This Week</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-control">
+                        <div class="form-group">
+                            <label>Consultation Type</label>
+                            <select class="input-lg">
+                                <option>All</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-control">
+                        <div class="form-group">
+                            <label>Status</label>
+                            <select class="input-lg">
+                                <option>All</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-control">
+                        <div class="form-group">
+                            <label>Invoice</label>
+                            <select class="input-lg">
+                                <option>All</option>
+                            </select>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>order ID</th>
+                            <th>patient</th>
+                            <th>Consultation</th>
+                            <th>team</th>
+                            <th>doctor</th>
+                            <th>Slot</th>
+                            <th>status</th>
+                            <th>invoice</th>
+                            <th>action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>2422562</td>
+                            <td><span>Risha Mahin</span>
+                                <p>26, F</p>
+                            </td>
+                            <td><span><i class="fa-solid fa-video"></i>&nbsp;&nbsp; Video</span>
+                                <p>First Consultation</p>
+                            </td>
+                            <td></td>
+                            <td>Anil Kumar</td>
+                            <td>Jul 3, 2021 <br>
+                                8:53 AM</td>
+                            <td><span>Cancelled</span></td>
+                            <td><span>Refunded</span></td>
+                            <td><i class="fa-solid fa-ellipsis-vertical"></i></td>
+                        </tr>
+
+                        <tr>
+                            <td>2429657</td>
+                            <td><span>Riju K</span>
+                                <p>32, M</p>
+                            </td>
+                            <td><span><i class="fa-solid fa-video"></i>&nbsp;&nbsp; Video</span>
+                                <p>Follow-up</p>
+                            </td>
+                            <td>Medical Camp</td>
+                            <td>Greg Ferguson</td>
+                            <td>Jul 3, 2021 <br>
+                                8:53 AM</td>
+                            <td><span>No Show</span></td>
+                            <td><span class="danger">Unpaid</span></td>
+                            <td><i class="fa-solid fa-ellipsis-vertical"></i></td>
+                        </tr>
+
+                        <tr>
+                            <td>2422455</td>
+                            <td><span>Prajeesh</span>
+                                <p>26, F</p>
+                            </td>
+                            <td><span><i class="fa-sharp fa-solid fa-bolt"></i>&nbsp;&nbsp; Anytime Consult</span></td>
+                            <td></td>
+                            <td>Pankaj Dhir</td>
+                            <td>Jul 3, 2021 <br>
+                                8:53 AM</td>
+                            <td><span>Completed</span></td>
+                            <td><span class="success">Paid</span></td>
+                            <td><i class="fa-solid fa-ellipsis-vertical"></i></td>
+                        </tr>
+
+                        <tr>
+                            <td>2421751</td>
+                            <td><span>Nikita Gandhi</span>
+                                <p>29, F</p>
+                            </td>
+                            <td><span><i class="fa-solid fa-video"></i>&nbsp;&nbsp; Video</span>
+                                <p>First Consultation</p>
+                            </td>
+                            <td>Medical Camp</td>
+                            <td>Sujata Mohan</td>
+                            <td>Jul 3, 2021 <br>
+                                8:53 AM</td>
+                            <td><span>Booked</span></td>
+                            <td><span class="success">Paid</span></td>
+                            <td><i class="fa-solid fa-ellipsis-vertical"></i></td>
+                        </tr>
+
+                        <tr>
+                            <td>2422455</td>
+                            <td><span>Darshan Singh</span>
+                                <p>36, M</p>
+                            </td>
+                            <td><span><i class="fa-solid fa-person"></i>&nbsp;&nbsp; In-person</span>
+                                <p>Second Opinion</p>
+                            </td>
+                            <td></td>
+                            <td>Ram Dayanand</td>
+                            <td>Jul 3, 2021 <br>
+                                8:53 AM</td>
+                            <td><span>Cancelled</span></td>
+                            <td><span class="danger">Unpaid</span></td>
+                            <td><i class="fa-solid fa-ellipsis-vertical"></i></td>
+                        </tr>
+
+                        <tr>
+                            <td>2421751</td>
+                            <td><span>Risha Mahin</span>
+                                <p>19, F</p>
+                            </td>
+                            <td><span><i class="fa-solid fa-video"></i>&nbsp;&nbsp; Video</span>
+                                <p>First Consultation</p>
+                            </td>
+                            <td></td>
+                            <td>Prakash Jhanti</td>
+                            <td>Jul 3, 2021 <br>
+                                8:53 AM</td>
+                            <td><span>Completed</span></td>
+                            <td><span class="success">Paid</span></td>
+                            <td><i class="fa-solid fa-ellipsis-vertical"></i></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

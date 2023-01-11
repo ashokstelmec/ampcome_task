@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content {
+    display: flex;
+
+}
+
+nav {
+    background-color: #203765;
+    text-align: center;
+    padding-bottom: 10.4rem;
+}
+
+ul {
+    list-style: none;
+    margin-top: 6rem;
+}
+
+li {
+    padding: .6rem;
+    margin-top: .4em;
+    cursor: pointer;
+}
+
+li:hover {
+    border-right: 3px solid #FC6964;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+li:hover img{
+    filter: brightness(0) invert(1);
+    color: #fff;
+}
+
+.navbrand {
+    margin-top: 12rem;
+}
+
+section {
+    padding: 1.4rem;
+}
+
+.container h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    color: #29375F;
+    margin-bottom: .5rem;
+}
+
+.left {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(54, 68, 105, 0.3);
+}
+
+.left p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(41, 55, 95, 0.6);
+}
+
+button {
+    background-color: #fff;
+    border: 1px solid #FC6964;
+    border-radius: 12px;
+    margin-top: -20px;
+    padding: 10px 20px;
+    margin-bottom: .8rem;
+    color: #FC6964;
+}
+
+button span {
+    border-radius: 50%;
+    background-color: #FC6964;
+    color: #fff;
+    font-size: 1em;
+    border: 1px solid #FC6964;
+}
+
+form {
+    margin-top: 1.2rem;
+    display: flex;
+    grid-gap: .7rem;
+}
+
+.form-control {
+    position: relative;
+}
+
+.form-control i {
+    position: absolute;
+    top: 16px;
+    left: 215px;
+    color: #C0CEFF;
+}
+
+form input {
+    height: 48px;
+    width: 250px;
+    padding: .4rem;
+    background: #FFFFFF;
+    border: 1px solid rgba(192, 206, 255, 0.7);
+    border-radius: 6px;
+    outline: none;
+}
+
+.form-group>label {
+    position: absolute;
+    top: -7px;
+    left: 10px;
+    background-color: white;
+    color: #29375F;
+}
+
+.form-group>select {
+    background: #FFFFFF;
+    border: 1px solid rgba(192, 206, 255, 0.7);
+    border-radius: 6px;
+    width: 230px;
+    height: 48px;
+    outline: none;
+}
+
+select {
+    padding: .5rem;
+}
+
+table {
+    margin-top: .9rem;
+    border-collapse: collapse;
+    font-family: 'Inter';
+    font-style: normal;
+    width: 1261px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px #E5E6EF;
+    border-radius: 6px;
+}
+
+th {
+    text-transform: uppercase;
+    padding: 1rem;
+}
+
+thead tr {
+    background-color: #F0F4FD;
+    border-bottom: 1px solid #BFD2F3;
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: rgba(41, 55, 95, 0.6);
+}
+
+tbody tr {
+    border-bottom: 1px solid #BFD2F3;
+
+}
+
+tbody tr td {
+    padding: 1rem;
+}
+
+td:nth-child(1) {
+    font-weight: 400;
+    font-size: 14px;
+    color: #29375F;
+}
+
+td:nth-child(2) span {
+    color: #279AF1;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+td:nth-child(2) p {
+    font-weight: 400;
+    font-size: 12px;
+    color: rgba(41, 55, 95, 0.5);
+    margin-top: 5px;
+}
+
+td:nth-child(3) span {
+    font-weight: 500;
+    font-size: 14px;
+    color: #29375F;
+
+}
+
+td:nth-child(3) p {
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(41, 55, 95, 0.6);
+    margin-top: 5px;
+}
+
+td:nth-child(4) {
+    font-weight: 400;
+    font-size: 14px;
+    color: #29375F;
+}
+
+td:nth-child(5) {
+    font-weight: 400;
+    font-size: 14px;
+    color: #29375F;
+}
+
+td:nth-child(6) {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #29375F;
+}
+
+td:nth-child(7) span {
+    background: #F2F0F9;
+    border-radius: 12px;
+    font-weight: 500;
+    font-size: 12px;
+    padding: .4rem;
+    color: #656F8D;
+}
+
+td:nth-child(8) span {
+    background: #F2F0F9;
+    border-radius: 12px;
+    font-weight: 500;
+    font-size: 12px;
+    padding: .4rem;
+    color: #656F8D;
+}
+
+td .success {
+    color: #007F00 !important;
+    background: #CDFFCD !important;
+
+}
+
+td .danger {
+    color: #D30000 !important;
+    background: #FFE0E0 !important;
+
+}
+
+td:nth-child(9) {
+    text-align: end;
+    color: rgba(41, 55, 95, 0.6);
+}
+
+tr:nth-child(6) {
+    border: none;
+}
